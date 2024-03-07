@@ -1,0 +1,48 @@
+.forecast-header {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: start;
+  align-items: center;
+
+  .label {
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .divider {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.forecat-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+
+  .forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .forecast-time {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 300;
+    }
+
+    .img {
+      /* margin-top: 0.25rem; */
+      margin-bottom: 0.25rem;
+      width: 3rem;
+    }
+
+    .temp {
+      font-weight: 500;
+    }
+  }
+}

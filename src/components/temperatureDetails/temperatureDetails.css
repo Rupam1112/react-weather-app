@@ -1,0 +1,46 @@
+.weather {
+  display: flex;
+  /* padding-top: 1.5rem;
+  padding-bottom: 1.5rem;  */
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  justify-content: center;
+  align-items: center;
+  color: rgb(103 232 249);
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 0.75rem;
+  padding-bottom: 0.75rem; */
+  color: #ffffff;
+
+  .img {
+    width: 5rem;
+  }
+
+  .temp {
+    font-size: 3rem;
+    line-height: 1;
+
+  }
+
+  .feel-humidity-wind-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+
+    .feel-humidity-wind {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 300;
+    }
+
+  }
+}
